@@ -1,0 +1,79 @@
+/* resetting css style */
+* {
+  margin: 0;
+  padding: 0;
+}
+.nice {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+header {
+  background-color: rgba(0, 0, 255, 0.315);
+  padding: 20px 0;
+}
+li {
+  list-style: none;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 4rem;
+  padding-left: 4em;
+}
+.gold {
+  display: flex;
+  flex-direction: row;
+  padding-left: 8.5em;
+  background-color: rgba(0, 0, 255, 0.215);
+  padding: 2em 8.5em;
+}
+.good {
+  display: flex;
+  gap: 2em;
+}
+a {
+  text-decoration: none;
+}
+/* styling main */
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(73, 28, 114, 0.5);
+  gap: 9rem;
+}
+.text-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8.5em;
+  padding-bottom: 6em;
+  padding-top: 5em;
+}
+.input {
+  width: 25rem;
+  height: 30px;
+  border-radius: 40px;
+  padding-left: 1rem;
+  outline: none;
+  border: none;
+}
+fieldset {
+  padding-top: 15px;
+
+  border: none;
+}
+p {
+  padding-top: 3em;
+}
+button {
+  background-color: black;
+  color: white;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 6em;
+}
