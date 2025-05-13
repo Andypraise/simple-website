@@ -70,10 +70,21 @@ p {
 button {
   background-color: black;
   color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: black;
+  background-color: rgb(73, 28, 114, 0.5);
 }
 footer {
   background-color: black;
   color: white;
   text-align: center;
   height: 6em;
+}
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
 }
