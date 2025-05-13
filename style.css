@@ -87,4 +87,34 @@ footer {
   nav {
     display: none;
   }
+  .good li {
+    display: none;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  img {
+    width: 30%;
+    height: 10%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  .good h2 {
+    text-align: left;
+    font-size: 11px;
+  }
+  .text-section {
+    font-size: 10px;
+  }
+  .text-section input {
+    width: 80%;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  p h1 {
+    font-size: 15px;
+  }
 }
